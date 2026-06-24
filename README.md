@@ -1,4 +1,5 @@
 Number Guessing Game
+
 I built this little project to get more comfortable with Java. It’s a basic game where the computer picks a number between 1 and 100, and you have to guess it.
 
 How to get it running
@@ -11,6 +12,7 @@ Compile the code: javac GuessTheNumberGame.java
 Run the game: java GuessTheNumberGame
 
 What I learned
+
 This was a great way for me to wrap my head around Scanner for input and the basic while loops in Java. Definitely had a few headaches getting the terminal to recognize javac at first, but it was a good lesson in setting up my environment properly!
 
 Why this feels different:
