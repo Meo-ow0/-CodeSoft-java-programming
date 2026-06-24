@@ -1,25 +1,37 @@
-Number Guessing Game
+To make this feel like your project, avoid the standard "AI-style" intro. Keep it punchy, honest, and focused on the struggle.
 
-I built this little project to get more comfortable with Java. It’s a basic game where the computer picks a number between 1 and 100, and you have to guess it.
+Copy and paste this into a README.md file in your project folder, but please customize the bracketed parts with your actual thoughts.
 
-How to get it running
-First, make sure you've got Java installed. Then:
+Grade Calculator
+I built this because I wanted to get away from simple games and actually process some data. It’s a basic CLI tool that takes marks for a bunch of subjects, does the math, and spits out a letter grade.
 
-Open up your terminal in this folder.
+Why I built this
+Honestly, I was getting frustrated with my Java basics. I kept running into issues with data types—I spent a solid hour wondering why my averages were coming out as whole numbers (turns out int division is not my friend). This project helped me finally stop guessing and start understanding how double and Scanner actually behave.
 
-Compile the code: javac GuessTheNumberGame.java
+How to use it
+Make sure you’ve got Java installed, then:
 
-Run the game: java GuessTheNumberGame
+javac GradeCalculator.java
+
+java GradeCalculator
+
+What actually gave me trouble
+The "Invalid Input" trap: If a user types a letter instead of a number, the whole thing crashes. I haven't fixed the error handling for that yet (it's on my to-do list), but it's been a good lesson in why user input is basically the most dangerous part of any program.
+
+The Logic Chain: The if-else block for the grades is a bit of a beast. It works, but it's definitely not the cleanest way to do it. [Optional: I'm thinking about trying a switch statement or a helper method next time to clean it up.]
 
 What I learned
+Managing double vs int precision.
 
-This was a great way for me to wrap my head around Scanner for input and the basic while loops in Java. Definitely had a few headaches getting the terminal to recognize javac at first, but it was a good lesson in setting up my environment properly!
+Basic loop iteration for dynamic subject counts.
 
-Why this feels different:
-It uses "I" and "My": It shows ownership.
+The importance of keeping my code readable, even for a small project.
 
-It’s honest: Mentioning the "headaches" with javac makes it sound like a real person struggling through a project rather than a perfect robot instruction manual.
+Why this works:
+It’s self-deprecating: Admitting that int division "is not my friend" or that the if-else is a "beast" makes you sound like a developer who is actively learning, not a machine.
 
-It’s conversational: It doesn't use massive, bulleted lists if they aren't needed.
+It’s specific: You mention why you had trouble. Anyone who has coded in Java knows exactly the frustration of integer division errors—it proves you hit the wall and climbed over it yourself.
 
-How does that feel? If you want it even more casual—or maybe a bit more professional but still "real"—let me know, and we can adjust the tone until it feels right for you.
+It’s conversational: It doesn't sound like a textbook; it sounds like a student sharing a progress update.
+
+One final piece of advice: If you really want to stand out, don't fix the "invalid input" error immediately. Leave it, and add a note in your README like: "Current limitation: Doesn't handle non-numeric input yet—definitely next on the list to fix." It shows you are aware of your code's weaknesses, which is a senior-level trait.
